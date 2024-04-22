@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6" style={{boxSizing: 'border-box'}}>
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <span className="font-semibold text-xl tracking-tight">Voyager IT</span>
+          <Link href='/' className="font-semibold text-2xl tracking-tight">Voyager IT</Link>
         </div>
         <div className="block lg:hidden"> 
           <button onClick={() => setIsOpen(!isOpen)} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -17,13 +17,13 @@ function NavBar() {
         </div>
         <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? '' : 'hidden'}`}>
           <div className="text-sm lg:flex-grow">
-            <Link href='/aboutUs' className="block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
+            <Link href='/aboutUs' className="text-base block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
               About Us
             </Link>
-            <Link  className="block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
+            <Link  className="text-base block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
               Projects
             </Link>
-            <Link  className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-200 cursor-pointer">
+            <Link  className="text-base block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-200 cursor-pointer">
               Contact Us
             </Link>
           </div>
