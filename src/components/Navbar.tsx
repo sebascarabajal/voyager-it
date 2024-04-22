@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6" style={{boxSizing: 'border-box'}}>
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <span className="font-semibold text-xl tracking-tight">Voyager IT</span>
         </div>
