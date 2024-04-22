@@ -7,7 +7,7 @@ export default function Banner() {
                 <Image src={"/image.png"} alt="Descripción de la imagen" width={600} height={600} />
             </div>
             <div className="w-full sm:w-1/3 flex justify-center items-center text-center">
-                <h2 className="text-2xl font-bold">We work with the best technology</h2>
+                <h2 className="text-2xl font-bold">We work with the best technology.</h2>
             </div>
         </div>
     )
