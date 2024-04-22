@@ -4,7 +4,7 @@ import React from 'react'
 
 function HomePage() {
   return (
-    <main className='min-h-screen min-w-max'>
+    <main className='min-h-screen'>
       <Hero />
       <Banner />
     </main>
