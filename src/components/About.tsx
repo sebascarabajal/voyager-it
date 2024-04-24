@@ -2,26 +2,25 @@ import React from 'react'
 
 export default function AboutComponent() {
     return (
-        <div className='flex flex-col md:flex-row justify-center md:items-center mt-5 mx-4 space-y-4'>
-            <div className='w-full md:w-1/4 h-40 bg-gradient-to-r from-teal-200 to-green-50 rounded-md mr-5 flex flex-col justify-center items-center'>
-                <h2 className='text-2xl py-4'>Maximo Gomez</h2>
-                <p className='text-base py-2'>CEO</p>
-                <p className='text-sm italic px-2'>I am proud to lead and guide this company.</p>
-            </div>
-            <div className='w-full md:w-1/4 h-40 bg-gradient-to-r from-teal-200 to-green-50 rounded-md mr-5 flex flex-col justify-center items-center'>
-                <h2 className='text-2xl py-4'>Sebastian Carabajal</h2>
-                <p className='text-base py-2'>Marketing manager</p>
-                <p className='text-sm italic px-2'>Representing voyager requires maximum knowledge.</p>
-            </div>
-            <div className='w-full md:w-1/4 h-40 bg-gradient-to-r from-teal-200 to-green-50 rounded-md mr-5 flex flex-col justify-center items-center'>
-                <h2 className='text-2xl py-4'>Salustiano Vargas</h2>
-                <p className='text-base py-2'>Engineering Manager</p>
-                <p className='text-sm italic px-2'>Voyager engineering makes our clients dreams come true.</p>
-            </div>
-            <div className='w-full md:w-1/4 h-40 bg-gradient-to-r from-teal-200 to-green-50 rounded-md flex flex-col justify-center items-center'>
-                <h2 className='text-2xl py-4'>Manuel Garcia</h2>
-                <p className='text-base py-2'>Finance Manager</p>
-                <p className='text-sm italic px-2'>At Voyager, finances sparkle with success.</p>
+        <div className="flex flex-col items-center justify-center">
+            <h2 className="text-2xl font-bold mb-4">Our Team</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="flex flex-col items-center bg-gradient-to-r from-teal-200 to-teal-500 rounded-md">
+                    <h3 className="text-xl font-medium">Maximo Gomez</h3>
+                    <p className="text-base text-gray-600">CEO</p>
+                </div>
+                <div className="flex flex-col items-center bg-gradient-to-r from-teal-200 to-teal-500 rounded-md">
+             <h3 className="text-xl font-medium">Sebastian Carabajal</h3>
+                    <p className="text-base text-gray-600">Marketing Manager</p>
+                </div>
+                <div className="flex flex-col items-center bg-gradient-to-r from-teal-200 to-teal-500 rounded-md">
+             <h3 className="text-xl font-medium">Salustiano Vargas</h3>
+                    <p className="text-base text-gray-600">Engineering Manager</p>
+                </div>
+                <div className="flex flex-col items-center bg-gradient-to-r from-teal-200 to-teal-500 rounded-md">
+             <h3 className="text-xl font-medium">Manuel Garcia</h3>
+                    <p className="text-base text-gray-600">Finance Manager</p>
+                </div>
             </div>
         </div>
     )
