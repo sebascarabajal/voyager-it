@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <section className="min-h-[30vh] w-screen bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 flex flex-col md:flex-row items-center justify-center md:justify-between px-10 md:px-[20vw]">
+    <section className="min-h-[30vh] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 flex flex-col md:flex-row items-center justify-center md:justify-between px-10 md:px-[20vw]">
       <Link href={'/'}>
         <h1 className="flex items-center text-black text-3xl font-bold space-x-2">
            <span>Voyager IT</span>
