@@ -23,7 +23,7 @@ function NavBar() {
             <Link href='/aboutUs' className="text-base block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
               About Us
             </Link>
-            <Link  className="text-base block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
+            <Link href='/projects' className="text-base block mt-4 lg:inline-block lg:mt-0  text-white hover:text-teal-200 mr-4 cursor-pointer">
               Projects
             </Link>
             <Link  className="text-base block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-200 cursor-pointer">

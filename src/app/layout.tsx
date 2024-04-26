@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
-        <Theme appearance="dark">
+        <Theme>
           <NavBar />
           {children}
           <Footer />
