@@ -1,9 +1,10 @@
 import React from 'react'
+import Contact from '@/components/Contact'
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <main className='min-h-screen'>
-      <h1>Contact Us</h1>
+      <Contact />
     </main>
   )
 }
