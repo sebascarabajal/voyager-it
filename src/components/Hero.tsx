@@ -2,7 +2,6 @@
 import React from 'react'
 import ButtonHero from './Button'
 import { useTypewriter } from 'react-simple-typewriter'
-import { Cursor } from 'react-simple-typewriter'
 
 function Hero() {
 
