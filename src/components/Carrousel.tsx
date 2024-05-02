@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Carrousel() {
     return (
         <div className="flex justify-center items-center mt-10">
-            <Carousel autoPlay={true} infiniteLoop={true} className="w-full md:w-1/2" >
+            <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} className="w-full md:w-1/2" >
                 <div>
                     <Image src={"/c1.jpg"} alt="Descripción de la imagen" width={500} height={500} />
                     <p className="legend">Servidor</p>
