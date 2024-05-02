@@ -5,6 +5,7 @@ import NavBar from "@/components/Navbar";
 import { Theme } from "@radix-ui/themes";
 import Footer from "@/components/Footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
 
   return (
     <html lang="es">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={inter.className}>
         <Theme appearance="dark">
           <NavBar />
