@@ -7,7 +7,7 @@ export default function Banner() {
                 <Image src={"/banner.png"} alt="Descripción de la imagen" width={600} height={600} />
             </div>
             <div className="w-full sm:w-1/3 flex justify-center items-center text-center  rounded-md">
-                <h2 className="text-2xl font-bold">We are an IT company that dedicates the maximum effort to our work. We have our base in Tucuman, Argentina</h2>
+                <h2 className="text-2xl font-bold">We are an IT company that dedicates the maximum effort to our work. We have our base in Tucum&aacute;n, Argentina</h2>
             </div>
         </div>
     )
