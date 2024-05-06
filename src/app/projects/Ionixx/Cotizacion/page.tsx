@@ -8,15 +8,8 @@ export default function Cotizacion() {
                 <div className="max-w-screen-md mx-4">
                     Finalmente, el costo total estimado del proyecto de cableado estructurado para el
                     edificio de Ionixx Technologies en Argentina, incluyendo materiales, equipos, mano de
-                    obra y los siguientes porcentajes de gastos administrativos: CEO 25%, Marketing
-                    Manager 10%, Engineering Manager 20%, Finance Manager 15%, asciende a $
-                    9,824,409.46 (Nueve millones ochocientos veinticuatro mil cuatrocientos nueve con
+                    obra, asciende a $9,824,409.46 (Nueve millones ochocientos veinticuatro mil cuatrocientos nueve con
                     cuarenta y seis).
-                </div>
-                <div className="max-w-screen-md mx-4">
-                    Este monto también contempla los costos asociados a la ingeniería aplicada en el
-                    diseño, planificación y supervisión del proyecto, garantizando una implementación
-                    óptima y acorde con los más altos estándares de calidad de la empresa.
                 </div>
                 <div className="max-w-screen-md mx-4">
                     Es importante destacar que esta estimación de costos ha sido realizada con el máximo

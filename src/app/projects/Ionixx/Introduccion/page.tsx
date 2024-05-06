@@ -13,7 +13,7 @@ export default function Intro() {
                     El diseño del cableado estructurado desempeña un papel crucial en la optimizaci&oacute;n del flujo de datos y la maximizaci&oacute;n del rendimiento de la red. Por lo tanto, este documento tambi&eacute;n examina en profundidad el diseño propuesto, teniendo en cuenta aspectos como la topología de la red, la distribución de los puntos de conexi&oacute;n y la gesti&oacute;n de la energ&iacute;a, entre otros.
                 </div>
                 <div className="max-w-screen-md mx-4">
-                    A continuaci&oacute; te dejamos el bot&oacute;n de descarga para que puedas acceder a la documentaci&oacute;n completa en PDF.
+                    A continuaci&oacute;n te dejamos el bot&oacute;n de descarga para que puedas acceder a la documentaci&oacute;n completa en PDF.
                 </div>
                 <a href="/VoyagerTP1.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar PDF</a>
             </div>
