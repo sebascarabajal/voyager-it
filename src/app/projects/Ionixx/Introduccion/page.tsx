@@ -15,7 +15,7 @@ export default function Intro() {
                 <div className="max-w-screen-md mx-4">
                     Aqui debajo te dejamos el bot&oacute;n de descarga para que puedas acceder a la documentaci&oacute;n completa en PDF.
                 </div>
-                <a href="/cableadoEstructurado.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6">Descargar PDF</a>
+                <a href="/VoyagerTP1.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar PDF</a>
             </div>
         </div>
     )

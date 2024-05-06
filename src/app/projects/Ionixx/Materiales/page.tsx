@@ -44,6 +44,11 @@ export default function Materiales() {
             Precio: '$65.169,36'
         },
         {
+            Nombre: 'Rack 40 U 19” 600 mm',
+            Cantidad: '2',
+            Precio: '$536,000.00'
+        },
+        {
             Nombre: 'Cable canal 18x21 mm - 2 mts',
             Cantidad: '25',
             Precio: '$2.882,00'
@@ -59,7 +64,7 @@ export default function Materiales() {
             Precio: '$20.872,00'
         },
         {
-            Nombre: 'Switch TPLINK 24 Puertos 48 GBps',
+            Nombre: 'Switch TPLINK 24 Puertos',
             Cantidad: '2',
             Precio: '$125.000,00'
         },

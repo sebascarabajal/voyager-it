@@ -10,7 +10,7 @@ export default function Indice() {
                 <Link href={"./Ionixx/Materiales"} className="text-lg px-4 py-2 text-teal-500 border-[#116b4e] border rounded md:w-1/5">Lista de materiales</Link>
                 <Link href={"./Ionixx/Cableado"} className="text-lg px-4 py-2 text-teal-500 border-[#116b4e] border rounded md:w-1/5">Cableado estructurado</Link>
                 <Link href={"./Ionixx/Images"} className="text-lg px-4 py-2 text-teal-500 border-[#116b4e] border rounded md:w-1/5">Imagenes</Link>
-                <Link href={""} className="text-lg px-4 py-2 text-teal-500 border-[#116b4e] border rounded md:w-1/5">Cotizacion Final</Link>
+                <Link href={"./Ionixx/Cotizacion"} className="text-lg px-4 py-2 text-teal-500 border-[#116b4e] border rounded md:w-1/5">Cotizacion Final</Link>
             </div>
         </div>
     )
