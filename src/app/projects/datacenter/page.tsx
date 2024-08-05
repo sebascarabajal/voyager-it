@@ -21,8 +21,8 @@ export default function DataCenter() {
                     <div className="max-w-screen-md mx-4 mt-4">
                     Below, we provide the download button so you can access the complete documentation in PDF and PowerPoint formats.
                     </div>
-                    <a href="/Datacenter.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar PDF</a>
-                    <a href="#" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar PowerPoint</a>
+                    <a href="/Datacenter.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar Documentaci&oacute;n</a>
+                    <a href="/Presentacion.pdf" download className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded mt-6 mb-6">Descargar Presentaci&oacute;n</a>
                 </div>
             </div>
         </main>
